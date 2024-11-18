@@ -50,7 +50,7 @@ The dataset was preprocessed using Apache NiFi, which extracted the following co
     - Packet Length Mean
     - Total Forward Packets
     - Average Packet Size
-    - And more (see the full list in the `packet.csv` file under `data/nodes/`).
+    - And more (see the full list in the `packet.csv` file under `Data/Graph/Node/`).
 
 - **Relationships**:
   - **Attack Initiated**: Links `Source` to `Label`.
@@ -74,8 +74,8 @@ See the `scripts/` folder for the NiFi workflow file (`nifi_workflow.xml`) and t
 
 ## Node and Relationship Files
 All node and relationship data files are located in the `data/` directory:
-- **Nodes**: Found in `data/nodes/`.
-- **Relationships**: Found in `data/relationships/`.
+- **Nodes**: Found in `Data/Graph/Node/`.
+- **Relationships**: Found in `Data/Graph/Relationship/`.
 
 ---
 
