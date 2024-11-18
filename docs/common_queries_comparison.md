@@ -111,7 +111,7 @@ The UNWIND function is then used to break this list into individual records.
 The results are ordered by the attack count (EventCount) in descending order.
 It uses collect(unwind_stats)[0..3] to retrieve the top 3 destination nodes by attack count.
 Finally, it returns the label along with the top 3 destination IPs and their corresponding attack counts.
-**---
+
 
 ### **5. Query 4: Average Packet Details for each attack type**
 
