@@ -103,6 +103,7 @@ RETURN label, top_stats.Destination_IP, top_stats.EventCount;
 The Redshift query uses a WITH clause to create a temporary result set (denserankcount) that computes the total count of attacks (COUNT(*)) for each destination IP grouped by attack label (Label).
 It then applies a DENSE_RANK() window function to rank the destination IPs for each label based on their attack count in descending order.
 Finally, it filters the results to return the top 3 destination IPs (where dense_rank <= 3) for each label.
+
 **Neo4j Query:**
 The Neo4j query begins by matching the Label and Destination nodes with the ATTACKED relationship.
 It uses collect() to aggregate the destination IP, port, and attack count into a list for each label.
