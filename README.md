@@ -68,7 +68,7 @@ The ETL process was implemented using **Apache NiFi**, which performed the follo
 - Transformed it into node and relationship CSV files.
 - Produced optimized files for efficient upload into Neo4j.
 
-See the `scripts/` folder for the NiFi workflow file (`nifi_workflow.xml`) and the Neo4j import script (`neo4j_import_script.cypher`).
+See the `scripts/` folder for the NiFi workflow file (`Nifi_Flow.json`)).
 
 ---
 
