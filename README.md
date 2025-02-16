@@ -105,6 +105,3 @@ Some queries were designed to compare performance and results between this graph
 - Integrate additional features like anomaly scoring into the graph.
 
 ---
-
-## License
-This project is licensed under the MIT License.
